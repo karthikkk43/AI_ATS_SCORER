@@ -1,4 +1,4 @@
-# AI_ATS_SCOREr
+# AI_ATS_SCORER
 
 AI-assisted resume analysis with a Streamlit frontend, FastAPI backend, and a bundled fine-tuned BERT model. Upload a resume, optionally supply a job description, and review an ATS score with actionable feedback.
 
@@ -29,7 +29,7 @@ Resume analysis can call configured external services for suggestions, authentic
 ## Project structure
 
 ```text
-AI_ATS_SCOREr/
+AI_ATS_SCORER/
 ├── backend/                  API, scoring, parsing, authentication, and database integration
 ├── frontend/                 Streamlit views, components, services, and styles
 ├── finetuned-bert/            Model weights, tokenizer, and model configuration
@@ -57,8 +57,8 @@ git lfs install
 Then clone and install:
 
 ```bash
-git clone https://github.com/karthikkk43/AI_ATS_SCOREr.git
-cd AI_ATS_SCOREr
+git clone https://github.com/karthikkk43/AI_ATS_SCORER.git
+cd AI_ATS_SCORER
 git lfs pull
 python3.12 -m venv .venv
 source .venv/bin/activate

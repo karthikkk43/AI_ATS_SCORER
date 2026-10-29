@@ -47,7 +47,7 @@ PDF export also requires the WeasyPrint native libraries. Keep the working syste
 
 ## Update this GitHub repository
 
-This project is published to `https://github.com/karthikkk43/AI_ATS_SCOREr`.
+This project is published to `https://github.com/karthikkk43/AI_ATS_SCORER`.
 Install Git LFS before cloning and run `git lfs pull` after cloning to retrieve model weights. Git LFS storage and bandwidth limits apply.
 
 After editing your clone, review the changed files and commit only the intended project files. Do not stage local secrets.
