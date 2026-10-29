@@ -1,0 +1,5 @@
+# Use Python 3.12. Match the versions used to save the supplied model.
+-r requirements.txt
+sentence-transformers==5.7.0
+transformers==5.20.2
+torch==2.11.0

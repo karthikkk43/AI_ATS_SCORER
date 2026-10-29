@@ -1,0 +1,15 @@
+{
+  "base_model": "all-mpnet-base-v2",
+  "dataset": "cleaned_resumeJD_pairs.csv",
+  "total_pairs": 283,
+  "train_pairs": 198,
+  "val_pairs": 42,
+  "test_pairs": 43,
+  "epochs": 10,
+  "batch_size": 16,
+  "base_mae": 0.1859,
+  "finetuned_mae": 0.1002,
+  "base_rmse": 0.2314,
+  "finetuned_rmse": 0.1227,
+  "improvement_pct": 46.09
+}
